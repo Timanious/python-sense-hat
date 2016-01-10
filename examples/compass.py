@@ -16,7 +16,7 @@ sense.clear()
 prev_x = 0
 prev_y = 0
 
-led_degree_ratio = len(led_loop) / 360.0
+led_degree_ratio = (len(led_loop)+1) / 360.0
 
 while True:
     dir = sense.get_compass()
